@@ -21,7 +21,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # Inicializa o modelo que funcionou nos seus testes
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-2.5-flash-lite')
 
 # Persona do Mentor
 SYSTEM_PROMPT = (
